@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DirectX">
+      <UniqueIdentifier>{cd0fcd24-b458-467c-afe4-a6705e2d2a75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{469c6370-0d71-46c3-9d4d-18920f5fd996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\HLSL">
+      <UniqueIdentifier>{bc9d06be-fa4b-44df-8e62-58610d153497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\ShaderClass">
+      <UniqueIdentifier>{f6f959dc-bbb7-430b-982b-8176341df67d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texture">
+      <UniqueIdentifier>{cc79e0ec-48fb-479d-8257-25058efd11b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{b813a199-0310-48a3-bda8-17164c58077c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Elements">
+      <UniqueIdentifier>{019bb1f6-9a0f-406d-be81-e97d22cccb29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\TextClass">
+      <UniqueIdentifier>{11504066-b31c-4e52-b8ea-af974ce89cfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Parents">
+      <UniqueIdentifier>{c1aa09e3-fc8b-4067-a783-dd1bd2f34828}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FbxSDK">
+      <UniqueIdentifier>{9ff1484c-95e7-42fb-a67b-ccaa902e13c9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemClass.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="InputClass.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Global.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameTimer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplilcationClass.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectXClass.cpp">
+      <Filter>DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture2DShader.cpp">
+      <Filter>Shader\ShaderClass</Filter>
+    </ClCompile>
+    <ClCompile Include="TextClass.cpp">
+      <Filter>UI\TextClass</Filter>
+    </ClCompile>
+    <ClCompile Include="FbxLoader.cpp">
+      <Filter>FbxSDK</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SystemClass.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="InputClass.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="EventClass.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameTimer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplicationClass.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXClass.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureResource.h">
+      <Filter>Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderManager.h">
+      <Filter>Shader\ShaderClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2DShader.h">
+      <Filter>Shader\ShaderClass</Filter>
+    </ClInclude>
+    <ClInclude Include="TextClass.h">
+      <Filter>UI\TextClass</Filter>
+    </ClInclude>
+    <ClInclude Include="RectTexture2D.h">
+      <Filter>UI\Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="RectTransform.h">
+      <Filter>UI\Parents</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicStructures.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>UI\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane.h">
+      <Filter>UI\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="TextLabel.h">
+      <Filter>UI\Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="FbxLoader.h">
+      <Filter>FbxSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>FbxSDK</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\data\HLSL\TextureVS.hlsl">
+      <Filter>Shader\HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="..\data\HLSL\TexturePS.hlsl">
+      <Filter>Shader\HLSL</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
